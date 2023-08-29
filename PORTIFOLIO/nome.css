@@ -1,0 +1,84 @@
+body{
+
+    width: 90%;
+    padding-inline: 60px;
+    color: rgb(111, 26, 130);
+    background-image: url('imagens/fundo.jpg');
+    background-color: rgba(238, 224, 224, 0.1);
+    text-align: center;
+    background-attachment: fixed;
+
+
+    
+    }
+    
+    
+    header {
+    background-color: #f7f1f1;
+    padding: 40px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+
+ 
+    }
+    
+    
+    h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 5px rgb(211, 16, 140);
+    color: rgb(36, 6, 68);
+    text-transform: uppercase;
+    
+    
+    }
+
+
+
+    p{
+        text-align: justify;
+        line-height: 30px;
+
+
+
+    }
+    
+
+
+    ul.menu {
+        list-style: none;
+        margin: auto;
+        padding: 10px;
+        background-color: rgb(221, 186, 231);
+        display: flex;
+        border-radius: 40px;
+        letter-spacing: 5px;
+        text-shadow: 1px 3px 2px rgb(216, 60, 159);
+        box-shadow: 0 5px 15px rgba(94, 24, 105, 0.6);
+
+       
+      }
+      
+      /* Estilos para os itens do menu */
+      ul.menu li {
+        margin: 0;
+        padding: 10px 20px;
+
+
+    }
+      
+      /* Estilos para os links do menu */
+      ul.menu li a {
+        text-decoration: none;
+        color: #2e0724;
+        cursor: pointer;
+
+     
+      }
+
+      footer {
+            background-color: #ccc;
+            padding: 30px;
+            border-radius: 50px;
+
+      }
